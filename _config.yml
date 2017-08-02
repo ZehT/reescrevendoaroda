@@ -1,0 +1,25 @@
+# Site settings
+title: Reescrevendo a Roda
+header-img: img/home-bg.jpg
+email: jhtrein@gmail.com
+copyright_name: Reescrevendo a Roda
+description: "Blog voltado ao dia-a-dia do Code Review. Maiores detalhes a caminho"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: jtrein
+github_username:  ZehT
+facebook_username:  josetrein
+email_username:  jhtrein@gmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
