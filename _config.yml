@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: jhtrein@gmail.com
 copyright_name: Reescrevendo a Roda
 description: "Blog voltado ao dia-a-dia do Code Review. Maiores detalhes a caminho"
-baseurl: "/reescrevendoaroda"
+baseurl: ""
 url: "http://www.reescrevendoaroda.com.br"
 twitter_username:  
 github_username:  ZehT
