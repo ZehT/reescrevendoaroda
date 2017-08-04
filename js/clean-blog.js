@@ -14,21 +14,13 @@ $(function() {
 $(function() {
 
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
-        preventSubmit: true,
         submitError: function($form, event, errors) {
-            // additional error messages or events
+            event.preventDefault();
         },
         submitSuccess: function($form, event) {
-            event.preventDefault(); // prevent default submit behaviour
-            // get values from FORM
-            var name = $("input#name").val();
-            var email = $("input#email").val();
-            var message = $("textarea#message").val();
-            
-        },
-        filter: function() {
-            return $(this).is(":visible");
-        },
+			// do nothing
+			return true;
+        }
     });
 
     $("a[data-toggle=\"tab\"]").click(function(e) {
